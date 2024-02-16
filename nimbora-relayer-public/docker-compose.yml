@@ -56,7 +56,6 @@ services:
       DATABASE_URL: ${DATABASE_URL}
       DATABASE_NAME: ${DATABASE_NAME}
       ALCHEMY_RPC_URL: ${L2_ALCHEMY_RPC_URL}
-      AUTH_TOKEN: ${AUTH_TOKEN}
     logging:
       driver: 'json-file'
       options:

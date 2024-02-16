@@ -1,0 +1,51 @@
+{
+  "goerli": {
+    "weth": "0x63aca077a1CdA9cDa362396643e2D963637C6E81",
+    "starknetCore": "0xde29d060D45901Fb19ED6C6e959EB22d8626708e",
+    "l1PoolingManager": "0xeE51aEfaAd2Cff1534c8b25A6eA6601A8094ff7b",
+    "l2PoolingManager": "0x0504d072f8d10a19be9248dbbc034a0bb6a087426a73718307510e3eb81cbd00",
+    "l2Selector": "0x010e13e50cb99b6b3c8270ec6e16acfccbe1164a629d74b43549567a77593aff",
+    "ethBridge": "0xc3511006C04EF1d78af4C8E0e74Ec18A6E64Ff9e",
+    "relayer": "0x5F906C3eaCC3317CC1e9a6516D6D274d30427558",
+    "uniswapv3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "uniswapv3Router": "0xe592427a0aece92de3edee1f18e0157c05861564",
+    "nonfungiblePositionManager": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+    "uniswapV3WETHWstETHPool": "0x7e3d8bd50438c3566275b30da7c054eea4ca4f8b",
+    "eeth": "0x6878705332d2774df823bfc073bb63aa2743c26c",
+    "uniswapV3WETHEETHPool": "0x7cAB0602CFa1AD544E5b2B5fB4E875Aa3a59bc7d",
+    "eethPriceFeed": "0xc4122549256E7e8F9E2808a75B997e97d2dA3a54",
+    "eETHJuiceStrategy": {
+      "strategy": "0x605526d086CceE88107c58Aa299807801914ba42",
+      "underlying": "0x63aca077a1CdA9cDa362396643e2D963637C6E81",
+      "bridge": "0xc3511006C04EF1d78af4C8E0e74Ec18A6E64Ff9e"
+    }
+  },
+  "mainnet": {
+    "weth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "starknetCore": "0xc662c410c0ecf747543f5ba90660f6abebd9c8c4",
+    "l1PoolingManager": "",
+    "l2PoolingManager": "",
+    "l2Selector": "0x010e13e50cb99b6b3c8270ec6e16acfccbe1164a629d74b43549567a77593aff",
+    "ethBridge": "0xae0Ee0A63A2cE6BaeEFFE56e7714FB4EFE48D419",
+    "dai": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "daiBridge": "0x9F96fE0633eE838D0298E8b8980E6716bE81388d",
+    "wsteth": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+    "relayer": "",
+    "wstethPricefeed": "0x4B83C7abfC9Ca57A5fB323BbEE2Ff1316aD4C37e",
+    "uniswapv3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "uniswapv3Router": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    "nonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "uniswapV3WETHWstETHPool": "",
+    "sdai": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+    "sdaiStrategy": {
+      "strategy": "",
+      "underlying": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "bridge": "0x9F96fE0633eE838D0298E8b8980E6716bE81388d"
+    },
+    "uniStrategy": {
+      "strategy": "",
+      "underlying": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "bridge": "0xae0Ee0A63A2cE6BaeEFFE56e7714FB4EFE48D419"
+    }
+  }
+}

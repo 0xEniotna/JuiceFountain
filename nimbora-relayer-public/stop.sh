@@ -1,4 +1,4 @@
 #! /bin/bash
 
-echo Start the relayer
+echo Stop the relayer
 docker compose -f docker-compose.yml down
